@@ -4,24 +4,24 @@ const breakpoints = {
   desktop: "1439.98px",
   desktopFHD: "1919.98px",
   desktopQHD: "2559.98px",
-  desktopUHD: "3839.98px",
+  desktopUHD: "3839.99px"
 };
 
 const gridConfigs = {
   row: {
     gap: "0",
-    maxWidth: breakpoints.desktopFHD,
+    maxWidth: breakpoints.desktopFHD
   },
 
   cell: {
-    padding: ".5rem",
+    padding: ".5rem"
   },
 
   general: {
-    transition: "all 150ms ease",
+    transition: "all 150ms ease"
   },
 
-  breakpoints,
+  breakpoints
 };
 
 export { gridConfigs };
